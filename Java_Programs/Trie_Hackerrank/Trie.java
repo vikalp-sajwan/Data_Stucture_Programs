@@ -11,6 +11,7 @@ class TrieNode {
 
 	// Constructor to initialize the Arraylist with size 26 and value null
 	public TrieNode() {
+		// #####***** Java 8 feature (ncopies part) *******########
 		letters = new ArrayList<TrieNode>(Collections.nCopies(26, null));
 		end = false;
 	}

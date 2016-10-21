@@ -1,4 +1,4 @@
-package mergeNSortedArrays;
+
 /**
  * PROBLEM -
  * Write a program that merges N sorted arrays into one sorted array.
@@ -25,8 +25,8 @@ import java.util.Scanner;
  * custom heap node
  * data--> to store the data
  * parentArrIndex --> to store the index of the Array from which this data is taken
- * 				  	this is required when min element is extracted from the heap,
- * 					because the next element to inserted in the heap should be from the same array to which this element belonged earlier.
+ * 			this is required when min element is extracted from the heap,
+ * 			because the next element to inserted in the heap should be from the same array to which this element belonged earlier.
  * 						
  * @author Vikalp
  *
